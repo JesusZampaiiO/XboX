@@ -1,0 +1,435 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Gu&iacute;a para encontrar a Profesores del CBTiS 86</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page1">Cuarto "A" Contabilidad</a></li>
+            <li><a href="#page2">Cuarto "B" Alimento</a></li>
+			<li><a href="#page3">Cuarto "C" Mec&aacute;nica</a></li>
+            <li><a href="#page4">Cuarto "D" Mecatr&oacute;nica</a></li>
+            <li><a href="#page5">Cuarto "E" Programaci&oacute;n</a></li>
+            <li><a href="#page6">Cuarto "F" Log&iacute;stica</a></li>
+            <li><a href="#page7">Cuarto "G" Ofimatica</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Manuales De Ayuda</h4>
+	</div>
+</div>
+<div data-role="page" id="castelan">
+	<div data-role="header">
+		<h1>Dulce Maria Castelan</h1>
+	</div>
+	<div data-role="content">	
+    <img src="Horarios\castelan.png" height="120%" width="120%"> </img>
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="moreno">
+	<div data-role="header">
+		<h1>Jorge Moreno Guevara</h1>
+	</div>
+	<div data-role="content">	
+    <img src="Horarios\moreno.png" height="120%" width="120%"> </img>	
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="morales">
+	<div data-role="header">
+		<h1>Erika Guadalupe Morales Castro</h1>
+	</div>
+	<div data-role="content">	
+    <img src="Horarios\morales.png" height="120%" width="120%"> </img>	
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="cruz">
+	<div data-role="header">
+		<h1>Joel Cruz Hernandez</h1>
+	</div>
+	<div data-role="content">
+        <img src="Horarios\joel.png" height="120%" width="120%"> </img>		
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="olivares">
+	<div data-role="header">
+		<h1>Maria del Rosario Olivares Vargas</h1>
+	</div>
+	<div data-role="content">
+        <img src="Horarios\rosario.png" height="120%" width="120%"> </img>		
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="nieto">
+	<div data-role="header">
+		<h1>David Nieto Lopez</h1>
+	</div>
+	<div data-role="content">	
+        <img src="Horarios\nieto.png" height="120%" width="120%"> </img>
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="portal">
+	<div data-role="header">
+		<h1>Hugo Portal Aguilar</h1>
+	</div>
+	<div data-role="content">
+        <img src="Horarios\portal.png" height="120%" width="120%"> </img>	
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="fresbinda">
+	<div data-role="header">
+		<h1>Nora Fresbinda Lopez Domi</h1>
+	</div>
+	<div data-role="content">	
+        <img src="Horarios\fresbinda.png" height="120%" width="120%"> </img>	
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="cortes">
+	<div data-role="header">
+		<h1>Antonieta  N. Cortes Sanchez</h1>
+	</div>
+	<div data-role="content">	
+        <img src="Horarios\antonieta.png" height="120%" width="120%"> </img>	
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="zatarain">
+	<div data-role="header">
+		<h1>Santos Zatarain Lopez</h1>
+	</div>
+	<div data-role="content">
+        <img src="Horarios\zatarain.png" height="120%" width="120%"> </img>		
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="salas">
+	<div data-role="header">
+		<h1>Deniss Salas Guzman</h1>
+	</div>
+	<div data-role="content">	
+        <img src="Horarios\salas.png" height="120%" width="120%"> </img>	
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="gutierres">
+	<div data-role="header">
+		<h1>Gustavo Gutierrez Santos</h1>
+	</div>
+	<div data-role="content">	
+        <img src="Horarios\bustos.png" height="120%" width="120%"> </img>	
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="gonzales">
+	<div data-role="header">
+		<h1>Eugenio Gonzalez Ramos</h1>
+	</div>
+	<div data-role="content">
+        <img src="Horarios\eugenio.png" height="120%" width="120%"> </img>		
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="reyes">
+	<div data-role="header">
+		<h1>Gustavo Reyes Banda</h1>
+	</div>
+	<div data-role="content">
+        <img src="Horarios\gustavo.png" height="120%" width="120%"> </img>		
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="merida">
+	<div data-role="header">
+		<h1>Cabrera Merida Melasio</h1>
+	</div>
+	<div data-role="content">
+        <img src="Horarios\melasio.png" height="120%" width="120%"> </img>		
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="carrillo">
+	<div data-role="header">
+		<h1>Alberto Carrillo Alarcon</h1>
+	</div>
+	<div data-role="content">
+        <img src="Horarios\carrillo.png" height="120%" width="120%"> </img>		
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="rosales">
+	<div data-role="header">
+		<h1>Alan Rosales</h1>
+	</div>
+	<div data-role="content">	
+        <img src="Horarios\alan.png" height="120%" width="120%"> </img>	
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="juarez">
+	<div data-role="header">
+		<h1>Omar Juarez Cardenas"El Gordito"</h1>
+	</div>
+	<div data-role="content">
+        <img src="Horarios\juarez.png" height="120%" width="120%"> </img>		
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="cuevas">
+	<div data-role="header">
+		<h1>Mirna Luz Cuevas Martinez</h1>
+	</div>
+	<div data-role="content">	
+        <img src="Horarios\mirna.png" height="120%" width="120%"> </img>
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="perez">
+	<div data-role="header">
+		<h1>Arturo Eduardo Perez Garcia</h1>
+	</div>
+	<div data-role="content">
+        <img src="Horarios\ramirez.png" height="120%" width="120%"> </img>		
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="gonzalez">
+	<div data-role="header">
+		<h1>Julio Alberto Gonzalez Negrete</h1>
+	</div>
+	<div data-role="content">	
+        <img src="Horarios\alberto.png" height="120%" width="120%"> </img>	
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="gomez">
+	<div data-role="header">
+		<h1>Roxana Gomez Trejo</h1>
+	</div>
+	<div data-role="content">
+     <img src="Horarios\roxana.png" height="120%" width="120%"> </img>		
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="canales">
+	<div data-role="header">
+		<h1>Abdon Canales Castillo</h1>
+	</div>
+	<div data-role="content">
+     <img src="Horarios\canales.png" height="120%" width="120%"> </img>		
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="ramirez">
+	<div data-role="header">
+		<h1>Dora Luz Ramirez Velazquez</h1>
+	</div>
+	<div data-role="content">
+     <img src="Horarios\dora.png" height="120%" width="120%"> </img>	
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+<div data-role="page" id="page1">
+	<div data-role="header">
+		<h1>CONTABILIDAD</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#castelan">Dulce Maria Castel&aacute;n G&oacute;mez</a></li>
+            <li><a href="#moreno">Jorge Moreno Guevara</a></li>
+			<li><a href="#fresbinda"> Nora Fresbinda L&oacute;pez Dom&iacute;</a></li>
+            <li><a href="#cortes"> Antonieta N. Cortes Sanches ;</a></li>
+            <li><a href="#morales"> Erika Guadalupe Morales Castro;</a></li>
+            <li><a href="#olivares"> Maria del Rosario Olivares vargas ;</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>ALIMENTOS</h1>
+	</div>
+	<div data-role="content">	
+    <ul data-role="listview">
+		<li><a href="#zatarain">Santos Zatarain Lopez ;</a></li>
+        <li><a href="#castelan">Dulce Maria Castel&aacute;n G&oacute;mez</a></li>
+        <li><a href="#olivares"> Maria del Rosario Olivares vargas ;</a></li>	
+        <li><a href="#moreno">Jorge Moreno Guevara</a></li>
+        <li><a href="#salas">Deniss Salas Guzman</a></li>	
+        <li><a href="#gutierres">Gustavo Gutierres Bustos</a></li>
+        <li><a href="#morales"> Erika Guadalupe Morales Castro;</a></li>
+        </ul>
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>MECANICA</h1>
+	</div>
+	<div data-role="content">	
+    <ul data-role="listview">
+		  <li><a href="#gonzales"> Eugenio Gonzales Ramos;</a></li>	
+           <li><a href="#moreno">Jorge Moreno Guevara</a></li>
+            <li><a href="#olivares"> Maria del Rosario Olivares vargas ;</a></li>
+             <li><a href="#reyes">Gustavo Reyes Banda ;</a></li>
+              <li><a href="#portal"> Hugo Portal Aguilar ;</a></li>
+              <li><a href="#castelan">Dulce Maria Castel&aacute;n G&oacute;mez</a></li>
+              </ul>
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>MECATRONICA</h1>
+	</div>
+	<div data-role="content">
+    <ul data-role="listview">	
+		 <li><a href="#olivares"> Maria del Rosario Olivares vargas ;</a></li>
+         <li><a href="#moreno">Jorge Moreno Guevara</a></li>
+          <li><a href="#portal"> Hugo Portal Aguilar ;</a></li>
+           <li><a href="#merida"> Cabrera Merida Melesio;</a></li>
+            <li><a href="#carrillo"> Alberto Carrillo Alarcon ;</a></li>
+             <li><a href="#rosales"> Rosales Alan ;</a></li>
+              <li><a href="#cruz"> Joel Cruz Hernadez ;</a></li>	
+              </ul>	
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<h1>PROGRAMACION</h1>
+	</div>
+	<div data-role="content">	
+    <ul data-role="listview">
+		 <li><a href="#nieto"> David Nieto Lopez ;</a></li>
+         <li><a href="#cruz"> Joel Cruz Hernadez ;</a></li>
+         <li><a href="#moreno">Jorge Moreno Guevara</a></li>
+          <li><a href="#olivares"> Maria del Rosario Olivares vargas ;</a></li>
+          <li><a href="#portal"> Hugo Portal Aguilar ;</a></li>
+            <li><a href="#castelan">Dulce Maria Castel&aacute;n G&oacute;mez</a></li>
+              <li><a href="#juarez">Omar Juarez Cardenas</a></li>	
+              </ul>
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page6">
+	<div data-role="header">
+		<h1>LOGISTICA</h1>
+	</div>
+	<div data-role="content">
+    <ul data-role="listview">	
+		<li><a href="#cuevas">Mirna Luz Cuevas Martinez</a></li>
+         <li><a href="#perez">Arturo Eduardo Perez Garcia</a></li>
+          <li><a href="#castelan">Dulce Maria Castel&aacute;n G&oacute;mez</a></li>
+           <li><a href="#gonzalez">Julio Alberto Gonzalez Negrete</a></li>
+            <li><a href="#morales">Erika Guadalupe Morales Castro</a></li>
+             <li><a href="#gutierres">Gustavo A. Gutierrez Bustos</a></li>	
+              <li><a href="#gomez">Roxana Gomez Trejo</a></li>	
+            </ul>
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+    </div>
+    
+    <div data-role="page" id="page7">
+	<div data-role="header">
+		<h1>OFIMATICA</h1>
+	</div>
+	<div data-role="content">
+    <ul data-role="listview">	
+		<li><a href="#gutierres">Gustavo A. Gutierrez Bustos</a></li>
+         <li><a href="#canales">Abdon Canales Castillo</a></li>
+          <li><a href="#gonzalez">Julio Alberto Gonzalez Negrete</a></li>
+           <li><a href="#ramirez">Dora Luz Ramirez Velazquez</a></li>	
+            <li><a href="#morales">Erika Guadalupe Morales Castillo</a></li>	
+             <li><a href="#castelan">Dulce Maria Castel&aacute;n G&oacute;mez</a></li>
+            </ul>
+	</div>
+	<div data-role="footer">
+		<h4><a href="#page">VOLVER</a></h4>
+	</div>
+    </div>
+    
+</div>
+</body>
+</html>
